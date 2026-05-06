@@ -8,6 +8,6 @@ I’m creating a new repository to implement my own custom theme on an Astro bas
 
 ## Tech Stack
 
-This website doesn’t require extensive engineering. I prioritize a user-friendly, enjoyable, and maintainable coding experience. Since it’s a static site, I’ll start with a simple Astro.js base.
+This website doesn’t require extensive engineering. I prioritize a user-friendly, enjoyable, and maintainable coding experience. Since it’s a static site, I’ll start with a simple [Astro.js](https://astro.build/) base.
 
-The website will be continuously deployed on my own Coolify instance.
+The website will be continuously deployed on my own [Coolify](https://coolify.io/) instance.
