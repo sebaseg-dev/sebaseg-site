@@ -1,4 +1,5 @@
-@use '../abstracts/_mixins.scss' as *;
+@use '../abstracts/mixins' as *;
+@use '../abstracts/colours' as *;
 
 .header {
     padding: 0 24px;
@@ -24,7 +25,16 @@
         
         display: flex;
         justify-content: space-between;
-        border-top: 2px solid black;
+        border-top: 2px solid $dark-point;
+
+        &--navlist {
+            display: flex;
+            gap: 8px;
+
+            & > * {
+                text-decoration: none;
+            }
+        }
     }
 
     &__decorators {
@@ -33,23 +43,27 @@
         gap: 8px;
 
         > * {
-            background-color: black;
+            background-color: $dark-point;
         }
         
-        &--small {
+        &--size-1 {
             height: 6px;
         }
         
-        &--medium {
+        &--size-2 {
             height: 12px;
         }
         
-        &--large {
+        &--size-3 {
             height: 24px;
         }
         
-        &--xlarge {
+        &--size-4 {
             height: 48px;
+        }
+        
+        &--size-5 {
+            height: 96px;
         }
     }
 }

@@ -1,5 +1,12 @@
+@use '../abstracts/colours' as *;
+
 :root {
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+    color: $dark-point;
+}
+
+a {
+    color: $dark-point;
 }
