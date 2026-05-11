@@ -1,6 +1,8 @@
 @use '../abstracts/_mixins.scss' as *;
 
 .header {
+    padding: 0 24px;
+    
     &__brand {
         display: block;
         width: 100%;
@@ -12,6 +14,42 @@
         font-family: 'Barlow', sans-serif;
         font-weight: 800;
         margin-top: -0.2em;
-        margin-bottom: 0.1em;
+        padding-bottom: 0.1em;
+        padding-top: 104px;
+        margin-bottom: 32px;
+    }
+
+    &__navbar {
+        padding: 8px 0;
+        
+        display: flex;
+        justify-content: space-between;
+        border-top: 2px solid black;
+    }
+
+    &__decorators {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        > * {
+            background-color: black;
+        }
+        
+        &--small {
+            height: 6px;
+        }
+        
+        &--medium {
+            height: 12px;
+        }
+        
+        &--large {
+            height: 24px;
+        }
+        
+        &--xlarge {
+            height: 48px;
+        }
     }
 }

@@ -1,4 +1,5 @@
-@use './base/_reset.scss';
-@use './base/_typography.scss';
+@use './base/base';
+@use './base/reset';
+@use './base/typography';
 
-@use './components/_header.scss';
+@use './components/header';
