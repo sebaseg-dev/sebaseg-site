@@ -1,0 +1,15 @@
+@use '../abstracts/colours' as *;
+
+.footer {
+    margin: 0 24px;
+
+    &__content {
+        background-color: $dark-point;
+        color: $light-point;
+        margin-top: 8px;
+        padding: 48px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}

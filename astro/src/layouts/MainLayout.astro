@@ -15,35 +15,42 @@ const { title = "Mon site Astro" } = Astro.props;
 	</head>
 	<body>
     	<header class="header">
-         <div class="header__brand">
-             <p class="header__name">sebaseg</p> 
-         </div>
-         <div class="header__navbar">
-            <p>Concepteur Développeur</p>
-            <nav class="header__navbar--navlist">
-                <a href="/">Accueil</a>
-                <a href="#">Parcours</a>
-                <a href="#">Projets</a>
-                <a href="#">À propos</a>
-            </nav>
-         </div>
-         <div class="header__decorators">
-             <div class="header__decorators--size-1"></div>
-             <div class="header__decorators--size-2"></div>
-             <div class="header__decorators--size-3"></div>
-             <div class="header__decorators--size-4"></div>
-             <div class="header__decorators--size-5"></div>
-         </div>
+            <div class="header__brand">
+                <p class="header__name">sebaseg</p> 
+            </div>
+            <div class="header__navbar">
+                <p>Concepteur Développeur</p>
+                <nav class="header__navbar--navlist">
+                    <a href="/">Accueil</a>
+                    <a href="#">Parcours</a>
+                    <a href="#">Projets</a>
+                    <a href="#">À propos</a>
+                </nav>
+            </div>
+            <div class="component__stripes">
+                <div class="component__stripes--size-1"></div>
+                <div class="component__stripes--size-2"></div>
+                <div class="component__stripes--size-3"></div>
+                <div class="component__stripes--size-4"></div>
+            </div>
         </header>
 
 		<main>
             <slot /> <!-- C'est ici que le contenu de tes pages sera injecté -->
         </main>
 
-        <footer>
-		    <p>Conçu et Développé à Paris avec Astro</p>
-		    <p>©2026 sebaseg | <a href="#">GitHub</a> | <a href="#">Linkedin</a></p>
-		    <p><a href="/legal">Mentions légales</a> | <a href="#">Accessibilité</a></p>
+        <footer class="footer">
+            <div class="component__stripes">
+                <div class="component__stripes--size-1"></div>
+                <div class="component__stripes--size-2"></div>
+                <div class="component__stripes--size-3"></div>
+                <div class="component__stripes--size-4"></div>
+            </div>
+            <div class="footer__content">
+    		    <p>Conçu et Développé à Paris avec Astro</p>
+    		    <p>©2026 sebaseg | <a href="#">GitHub</a> | <a href="#">Linkedin</a></p>
+    		    <p><a href="/legal">Mentions légales</a> | <a href="#">Accessibilité</a></p>
+            </div>
 		</footer>
 	</body>
 </html>

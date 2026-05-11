@@ -1,0 +1,33 @@
+@use '../abstracts/colours' as *;
+
+.component {
+    &__stripes{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        > * {
+            background-color: $dark-point;
+        }
+        
+        &--size-1 {
+            height: 6px;
+        }
+        
+        &--size-2 {
+            height: 12px;
+        }
+        
+        &--size-3 {
+            height: 24px;
+        }
+        
+        &--size-4 {
+            height: 48px;
+        }
+        
+        &--size-5 {
+            height: 96px;
+        }
+    }
+}
