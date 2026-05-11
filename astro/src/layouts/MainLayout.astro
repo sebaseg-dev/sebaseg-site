@@ -1,0 +1,38 @@
+---
+import '../styles/main.scss';
+
+const { title = "Mon site Astro" } = Astro.props;
+---
+
+<html lang="fr">
+    <head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>sebaseg</title>
+	</head>
+	<body>
+    	<header>
+            <p>sebaseg</p>
+            <p>Concepteur Développeur</p>
+            <nav>
+                <a href="/">Accueil</a>
+                <a href="#">Parcours</a>
+                <a href="#">Projets</a>
+                <a href="#">À propos</a>
+            </nav>
+        </header>
+
+		<main>
+            <slot /> <!-- C'est ici que le contenu de tes pages sera injecté -->
+        </main>
+
+        <footer>
+		    <p>Conçu et Développé à Paris avec Astro</p>
+		    <p>©2026 sebaseg | <a href="#">GitHub</a> | <a href="#">Linkedin</a></p>
+		    <p><a href="/legal">Mentions légales</a> | <a href="#">Accessibilité</a></p>
+		</footer>
+	</body>
+</html>
