@@ -1,0 +1,9 @@
+@mixin fluid-text-full($characters, $ratio, $spacing) {
+    $total-ratio: ($characters * $ratio) + (($characters - 1) * $spacing);
+
+    letter-spacing: #{$spacing}em;
+    font-size: calc(100cqw / #{$total-ratio});
+    white-space: nowrap;
+    line-height: 1;
+    display: block;
+}
