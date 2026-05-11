@@ -3,8 +3,39 @@ import MainLayout from '../layouts/MainLayout.astro';
 ---
 
 <MainLayout>
-    <h1>sebaseg</h1>
-    <h2>Présentation</h2>
-    <h2>Principaux projets</h2>
-    <h2>Carrière</h2>
+    <div class="landing">
+        <h1 class="component__invisible">sebaseg</h1>
+        
+        <h2 class="component__invisible">Présentation</h2>
+        <p class="landing__hello">
+            Bonjour !<br/>
+            Moi c'est Sebastien
+        </p>
+        <img class="landing_profile-picture" src="/images/profile.webp" alt="Portrait de Sebastien Seguin">
+        <p class="landing__main-promise">Je crée des solutions claires, pensées pour l’utilisateur, à Paris.</p>
+        <p class="landing__first-promise">Je conçois des applications simples et cohérentes, en gardant toujours à l’esprit leur utilité concrète et l’expérience des utilisateurs.</p>
+        <p class="landing__second-promise">Je cherche d’abord l’utilité avant de coder une fonctionnalité, en  m’assurant que chaque ligne de code sert un objectif réel et impactant.</p>
+        <p class="landing__third-promise">Je structure les problèmes pour construire des solutions fiables, en  transformant les défis en opportunités claires et exploitables.</p>
+        
+        <h2>Principaux projets</h2>
+        <div>
+            <h3>Relaxes pour le vivant</h3>
+            <p>Data For Good x MSDE</p>
+            <p>Plateforme spécialisée pour la transmission d’informations juridiques</p>
+            <p>bientôt en ligne</p>
+        </div>
+        <div>
+            <h3>Éclaireur Public</h3>
+            <p>Data For Good x Anticor x Transparency International France</p>
+            <p>Plateforme grand public de diagnostic de la transparence publique</p>
+            <a href="https://eclaireurpublic.fr" target="_blank">eclaireurpublic.fr</a>
+        </div>
+        <div>
+            <h3>Vinci SAP S/4 HANA e-CUBE</h3>
+            <p>Vinci Construction</p>
+            <p>Migration SAP S/4 HANA et conception de modules sur-mesure</p>
+        </div>
+        
+        <h2>Carrière</h2>
+    </div>
 </MainLayout>

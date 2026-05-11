@@ -1,6 +1,10 @@
 @use '../abstracts/colours' as *;
 
 .component {
+    &__invisible {
+        display: none;
+    }
+    
     &__stripes{
         display: flex;
         flex-direction: column;
