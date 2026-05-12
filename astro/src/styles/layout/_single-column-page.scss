@@ -33,7 +33,23 @@
         }
     }
 
-    & > p, ul {
+    & > p {
         grid-column: 2/5;
     }
+
+    & > ul {
+        grid-column: 2/5;
+        list-style: none;
+        padding: 0;
+
+        li::before {
+            content: "– ";
+        }
+    }
+
+    & > p + ul {
+        margin-top: -24px;
+    }
+
+    
 }
