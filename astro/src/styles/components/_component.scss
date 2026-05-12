@@ -5,6 +5,22 @@
         display: none;
     }
 
+    &__career-card {
+        background-image:
+            linear-gradient(to right, $dark-point, $dark-point),
+            linear-gradient(to bottom, $dark-point, $dark-point);
+            
+        background-size:
+            80px 2px,
+            2px 80px;
+
+        background-position: bottom right;
+        background-repeat: no-repeat;
+
+        padding-bottom: 8px;
+        padding-right: 8px;
+    }
+    
     &__project-card {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

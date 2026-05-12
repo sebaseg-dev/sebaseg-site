@@ -87,7 +87,7 @@
         margin-top: 0px;
         margin-bottom: 104px;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, minmax(0, 1fr));
         grid-template-rows: auto 48px auto auto auto;
         gap: 24px;
     }
@@ -95,5 +95,20 @@
     &__section-title--career {
         grid-column: 1/5;
         grid-row: 1;
+    }
+    
+    &__career--first {
+        grid-column: 2/3;
+        grid-row: 3;
+    }
+    
+    &__career--second {
+        grid-column: 3/4;
+        grid-row: 4;
+    }
+    
+    &__career--third {
+        grid-column: 4/5;
+        grid-row: 5;
     }
 }
