@@ -1,0 +1,42 @@
+---
+layout: ../layouts/SingleColumnLayout.astro
+title: "sebaseg – accessibilité"
+---
+
+# Accessibilité
+
+## 01. Accessibilité
+
+Le site sebaseg.fr est développé dans l'objectif d'appliquer les recommandations du référentiel général d’amélioration de l’accessibilité (RGAA) pour être accessible à tous les usagers quel que soit le matériel ou le logiciel utilisé pour naviguer sur internet.
+
+Compte tenu de la quantité et de la diversité des contenus publiés sur ce site, les protocoles de tests seront adaptés, et en l'espèce, seront simplifiés à la simple utilisation des contrôles automatiques proposés par l'extension Google Lighthouse, sur les pages principales de contenus. Bien que cet outil se contente d'analyser de manière automatique des points clefs sans beaucoup de profondeur, il semble pour le moment suffisant afin de ne pas mettre en œuvre une stratégie de contrôles trop lourde qui ne serait pas actualisée.
+
+Ma volonté est de rendre accessible n'importe quel contenu afin de proposer l'expérience la plus inclusive possible: n'hésitez pas à me contacter pour tout problème ayant attrait à l'accessibilité.
+
+Cette déclaration d’accessibilité s’applique au site sebaseg.fr.
+
+## 02. État de conformité
+
+Non conforme.
+
+Le site est dans les premières phases de développement. Aucun audit d'accessibilité n'a été réalisé à date.
+
+## 03. Résultats des tests
+
+Le site est dans les premières phases de développement. Aucun audit d'accessibilité n'a été réalisé à date.
+
+## 04. Retour d'information et contact
+
+Si vous n’arrivez pas à accéder à un contenu ou à un service, vous pouvez nous contacter par courriel à l’adresse [bonjour@sebaseg.fr](mailto:bonjour@sebaseg.fr) pour être orienté vers une alternative accessible ou obtenir le contenu sous une autre forme.
+
+## 05. Défenseur des droits
+
+ Si vous constatez un défaut d’accessibilité vous empêchant d’accéder à un contenu ou une fonctionnalité du site, que vous nous le signalez et que vous ne parvenez pas à obtenir une réponse rapide de notre part, vous êtes en droit de faire parvenir vos doléances ou une demande de saisine au Défenseur des droits.
+
+Plusieurs moyens sont à votre disposition :
+
+- un [formulaire de contact](https://www.defenseurdesdroits.fr/nous-contacter-355)
+- la [liste des délégués près de chez vous](https://www.defenseurdesdroits.fr/carte-des-delegues) avec leurs informations de contact directs
+- un numéro de téléphone : le [09 69 39 00 00](tel:+33969390000) du lundi au vendredi de 8h00 à 20h00 (coût d’un appel local)
+- une adresse postale dans l’[annuaire de l’administration](https://lannuaire.service-public.fr/autorites-independantes/autorite-administrative-independante_195381)
+
