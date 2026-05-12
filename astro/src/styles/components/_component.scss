@@ -4,6 +4,25 @@
     &__invisible {
         display: none;
     }
+
+    &__striped-title {
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1;
+        gap: 24px;
+        align-items: center;
+
+        & > span {
+            grid-column: 1/2;
+        }
+
+        &::after {
+            content: "";
+            grid-column: 2/5;
+            background-color: $dark-point;
+            height: 8px;
+        }
+    }
     
     &__stripes{
         display: flex;
