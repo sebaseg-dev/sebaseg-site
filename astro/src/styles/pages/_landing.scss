@@ -1,12 +1,6 @@
 @use '../abstracts/colours' as *;
 
 .landing {
-    /* padding: 64px 0; */
-    
-    /* display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto 40px auto 128px auto auto 128px auto 80px auto auto auto 80px auto;
-    gap: 24px; */
 
     &__hello-section {
         margin-top: 64px;
