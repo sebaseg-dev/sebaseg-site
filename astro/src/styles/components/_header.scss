@@ -1,0 +1,39 @@
+@use '../abstracts/mixins' as *;
+@use '../abstracts/colours' as *;
+
+.header {
+    padding: 0 24px;
+    
+    &__brand {
+        display: block;
+        width: 100%;
+        container-type: inline-size;
+    }
+
+    &__name {
+        @include fluid-text-full(7, 0.54, -0.04);
+        font-family: 'Barlow', sans-serif;
+        font-weight: 800;
+        margin-top: -0.2em;
+        padding-bottom: 0.1em;
+        padding-top: 104px;
+        margin-bottom: 32px;
+    }
+
+    &__navbar {
+        padding: 8px 0;
+        
+        display: flex;
+        justify-content: space-between;
+        border-top: 2px solid $dark-point;
+
+        &--navlist {
+            display: flex;
+            gap: 8px;
+
+            & > * {
+                text-decoration: none;
+            }
+        }
+    }
+}

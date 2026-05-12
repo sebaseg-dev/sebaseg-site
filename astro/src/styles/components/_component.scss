@@ -1,0 +1,100 @@
+@use '../abstracts/colours' as *;
+
+.component {
+    &__invisible {
+        display: none;
+    }
+
+    &__career-card {
+        background-image:
+            linear-gradient(to right, $dark-point, $dark-point),
+            linear-gradient(to bottom, $dark-point, $dark-point);
+            
+        background-size:
+            80px 2px,
+            2px 80px;
+
+        background-position: bottom right;
+        background-repeat: no-repeat;
+
+        padding-bottom: 8px;
+        padding-right: 8px;
+    }
+    
+    &__project-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        gap: 24px;
+
+        &--image {
+            grid-column: 1/2;
+        }
+
+        &--content {
+            grid-column: 2/4;
+
+            display:flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        &--title {
+            font-size: 40px;
+            line-height: 1;
+        }
+        
+        &--featuring {
+            font-weight: 700;
+        }
+    }
+
+    &__striped-title {
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1;
+        gap: 24px;
+        align-items: center;
+
+        & > span {
+            grid-column: 1/2;
+        }
+
+        &::after {
+            content: "";
+            grid-column: 2/5;
+            background-color: $dark-point;
+            height: 8px;
+        }
+    }
+    
+    &__stripes{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        > * {
+            background-color: $dark-point;
+        }
+        
+        &--size-1 {
+            height: 6px;
+        }
+        
+        &--size-2 {
+            height: 12px;
+        }
+        
+        &--size-3 {
+            height: 24px;
+        }
+        
+        &--size-4 {
+            height: 48px;
+        }
+        
+        &--size-5 {
+            height: 96px;
+        }
+    }
+}

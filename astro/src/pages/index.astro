@@ -1,0 +1,89 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title="sebaseg – accueil">
+    <div class="landing">
+        
+        <h1 class="component__invisible">sebaseg</h1>
+        
+        <section class="landing__hello-section">
+            <h2 class="component__invisible">Présentation</h2>
+            <p class="landing__hello-word">
+                Bonjour !<br/>
+                Moi c'est Sebastien
+            </p>
+            <img class="landing__profile-picture" src="/images/profile.webp" alt="Portrait de Sebastien Seguin">
+            <p class="landing__main-promise">Je crée des solutions claires, pensées pour l’utilisateur, à Paris.</p>
+            <p class="landing__first-promise">Je conçois des applications simples et cohérentes, en gardant toujours à l’esprit leur utilité concrète et l’expérience des utilisateurs.</p>
+            <p class="landing__second-promise">Je cherche d’abord l’utilité avant de coder une fonctionnalité, en  m’assurant que chaque ligne de code sert un objectif réel et impactant.</p>
+            <p class="landing__third-promise">Je structure les problèmes pour construire des solutions fiables, en  transformant les défis en opportunités claires et exploitables.</p>
+        </section>
+        
+        <section class="landing__projects-section">
+            <h2 class="landing__section-title--projects component__striped-title">
+                <span>Principaux projets</span>
+            </h2>
+            <div class="landing__projects--first component__project-card">
+                <img src="/images/msde.webp" alt="Relaxe pour le vivant avec Data For Good et MSDE" class="component__project-card--image"/>
+                <div class="component__project-card--content">
+                    <h3 class="component__project-card--title">Relaxes pour le vivant</h3>
+                    <p class="component__project-card--featuring">Data For Good x MSDE</p>
+                    <p class="component__project-card--description">Plateforme spécialisée pour la transmission d’informations juridiques</p>
+                    <p class="component__project-card--link">bientôt en ligne</p>
+                </div>
+            </div>
+            <div class="landing__projects--second component__project-card">
+                <img src="/images/eclaireur_public.webp" alt="Éclaireur public avec Data For Good, Anticor et Transparency International France" class="component__project-card--image"/>
+                <div class="component__project-card--content">
+                    <h3 class="component__project-card--title">Éclaireur Public</h3>
+                    <p class="component__project-card--featuring">Data For Good x Anticor x Transparency International France</p>
+                    <p class="component__project-card--description">Plateforme grand public de diagnostic de la transparence publique</p>
+                    <a href="https://eclaireurpublic.fr" class="component__project-card--link" target="_blank">eclaireurpublic.fr</a>
+                </div>
+            </div>
+            <div class="landing__projects--third component__project-card">
+                <img src="/images/vinci.webp" alt="Migration vers SAP S/4 HANA avec Vinci Construction" class="component__project-card--image"/>
+                <div class="component__project-card--content">
+                    <h3 class="component__project-card--title">Vinci SAP S/4 HANA e-CUBE</h3>
+                    <p class="component__project-card--featuring">Vinci Construction</p>
+                    <p class="component__project-card--description">Migration SAP S/4 HANA et conception de modules sur-mesure</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="landing__career-section">
+            <h2 class="landing__section-title--career component__striped-title">
+                <span>Carrière</span>
+            </h2>
+            <div class="landing__career--first component__career-card">
+                <div class="component__career-card--content">
+                    <h3 class="component__project-card--title">Responsable financier</h3>
+                    <p class="component__project-card--featuring">Vinci – agence Moter</p>
+                    <p class="component__project-card--description">Responsable financier d’une agence Vinci Construction (50M€ CA – manager 10 personnes)</p>
+                    <p class="component__project-card--description">Mission AMOA SAP S/4 HANA (recettes, formation, support 1&2 — 118 personnes)</p>
+                </div>
+            </div>
+            <div class="landing__career--second component__career-card">
+                <div class="component__career-card--content">
+                    <h3 class="component__project-card--title">Auditeur interne</h3>
+                    <p class="component__project-card--featuring">Vinci Construction – monde</p>
+                    <p class="component__project-card--description">Audit métier et financier des agences Vinci Construction (50% international)</p>
+                    <p class="component__project-card--description">Approche par les risques – Analyse processus – Recommandations et synthèse</p>
+                </div>
+            </div>
+            <div class="landing__career--third component__career-card">
+                <div class="component__career-card--content">
+                    <h3 class="component__project-card--title">Reconversion numérique</h3>
+                    <p class="component__project-card--featuring">OpenClassrooms – Data For Good</p>
+                    <p class="component__project-card--description">Approche produit<br/>
+                    Orienté utilisateur<br/>
+                    Accessibilité<br/>
+                    Définition des besoins<br/>
+                    Accompagnement</p>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+</MainLayout>
