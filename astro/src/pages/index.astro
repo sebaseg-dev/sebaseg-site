@@ -6,9 +6,6 @@ const allProjects = await getCollection('projects');
 const featuredProjects = allProjects
     .filter(project => project.data.featured)
     .sort((a, b) => (a.data.featuredOrder ?? 9) - (b.data.featuredOrder ?? 9));
-
-console.log("Nombre total de projets :", allProjects.length);
-console.log("Projets mis en avant :", allProjects.filter(p => p.data.featured).length);
 ---
 
 <MainLayout title="sebaseg – accueil">
@@ -33,46 +30,28 @@ console.log("Projets mis en avant :", allProjects.filter(p => p.data.featured).l
             <h2 class="landing__section-title--projects component__striped-title">
                 <span>Principaux projets</span>
             </h2>
-            <div class="landing__projects--first component__project-card">
-                <img src="/images/msde.webp" alt="Relaxe pour le vivant avec Data For Good et MSDE" class="component__project-card--image"/>
-                <div class="component__project-card--content">
-                    <h3 class="component__project-card--title">Relaxes pour le vivant</h3>
-                    <p class="component__project-card--featuring">Data For Good x MSDE</p>
-                    <p class="component__project-card--description">Plateforme spécialisée pour la transmission d’informations juridiques</p>
-                    <p class="component__project-card--link">bientôt en ligne</p>
-                </div>
-            </div>
-            <div class="landing__projects--second component__project-card">
-                <img src="/images/eclaireur_public.webp" alt="Éclaireur public avec Data For Good, Anticor et Transparency International France" class="component__project-card--image"/>
-                <div class="component__project-card--content">
-                    <h3 class="component__project-card--title">Éclaireur Public</h3>
-                    <p class="component__project-card--featuring">Data For Good x Anticor x Transparency International France</p>
-                    <p class="component__project-card--description">Plateforme grand public de diagnostic de la transparence publique</p>
-                    <a href="https://eclaireurpublic.fr" class="component__project-card--link" target="_blank">eclaireurpublic.fr</a>
-                </div>
-            </div>
-            <!-- <div class="landing__projects--third component__project-card">
-                <img src="/images/vinci.webp" alt="Migration vers SAP S/4 HANA avec Vinci Construction" class="component__project-card--image"/>
-                <div class="component__project-card--content">
-                    <h3 class="component__project-card--title">Vinci SAP S/4 HANA e-CUBE</h3>
-                    <p class="component__project-card--featuring">Vinci Construction</p>
-                    <p class="component__project-card--description">Migration SAP S/4 HANA et conception de modules sur-mesure</p>
-                </div>
-            </div> -->
             
-            <div class="landing__projects--third component__project-card">
-                <img 
-                    src={ featuredProjects[0].data.img } 
-                    alt={ featuredProjects[0].data.img_alt } 
-                    class="component__project-card--image"
-                />
-                <div class="component__project-card--content">
-                    <h3 class="component__project-card--title">{ featuredProjects[0].data.title }</h3>
-                    <p class="component__project-card--featuring">{ featuredProjects[0].data.partners }</p>
-                    <p class="component__project-card--description">{ featuredProjects[0].data.description }</p>
-                    <a href={ featuredProjects[0].data.externalUrl } class="component__project-card--link" target="_blank">{ featuredProjects[0].data.externalUrl }</a>
+            {featuredProjects.map((project) => (
+                <div class={`landing__projects--${project.data.featuredOrder} component__project-card`}>
+                    <img 
+                        src={ project.data.img } 
+                        alt={ project.data.img_alt } 
+                        class="component__project-card--image"
+                    />
+                    <div class="component__project-card--content">
+                        <h3 class="component__project-card--title">{ project.data.title }</h3>
+                        <p class="component__project-card--featuring">{ project.data.partners }</p>
+                        <p class="component__project-card--description">{ project.data.description }</p>
+                        <a 
+                            href={ project.data.externalUrl } 
+                            class="component__project-card--link" 
+                            target="_blank"
+                        >
+                            { project.data.externalUrl }
+                        </a>
+                    </div>
                 </div>
-            </div>
+            ))}
             
         </section>
 

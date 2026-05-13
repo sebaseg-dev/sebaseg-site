@@ -1,17 +1,19 @@
 ---
 title: Éclaireur Public
 publishDate: 2026-02-13
-img: /assets/eclaireur_banner.webp
-img_alt: Bannière représentant les logos d'Éclaireur Public, de Data For Good, d'Anticor et de Transparency International France
-description: Un diagnostic de la transparence publique
+img: /images/eclaireur_public.webp
+img_alt: Éclaireur public avec Data For Good, Anticor et Transparency International France
+description: Plateforme grand public de diagnostic de la transparence publique
 tags:
   - Design/UX
   - Accessibilité
   - Contenus
 order: 0
 period: "2025"
-featured: false
-featuredOrder: 9
+partners: Data For Good x Anticor x Transparency International France
+externalUrl: https://eclaireurpublic.fr/
+featured: true
+featuredOrder: 2
 ---
 
 _En cours de rédaction_

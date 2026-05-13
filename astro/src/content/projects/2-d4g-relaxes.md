@@ -2,7 +2,7 @@
 title: Relaxes pour le Vivant
 publishDate: 2026-04-10
 img: /images/msde.webp
-img_alt: Drawing representing a bunch of people protesting, with Data For Good and MSDE associations' logos
+img_alt: Relaxe pour le vivant avec Data For Good et MSDE
 description: Projet de transmission des décisions de justice auprès des professionnels du droit
 tags:
   - Fullstack
@@ -12,7 +12,7 @@ period: "2026"
 partners: Data For Good x MSDE
 externalUrl: https://dataforgood.fr/projets/relaxes-pour-le-vivant
 featured: true
-featuredOrder: 3
+featuredOrder: 1
 ---
 
 _En cours de rédaction_

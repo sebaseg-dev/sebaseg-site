@@ -10,6 +10,8 @@ tags:
   - PostgreSQL
 order: 1
 period: 2025-2026
+partners: Data For Good x MSDE
+externalUrl: https://dataforgood.fr/projets/relaxes-pour-le-vivant
 featured: false
 featuredOrder: 9
 ---
