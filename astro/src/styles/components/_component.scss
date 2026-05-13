@@ -20,6 +20,11 @@
         padding-bottom: 8px;
         padding-right: 8px;
     }
+
+    &__cta {
+        padding: 24px;
+        border: solid 1px $dark-point;
+    }
     
     &__project-card {
         display: grid;

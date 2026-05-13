@@ -77,6 +77,14 @@
         grid-row: 5;
     }
 
+    &__projects--more {
+        margin-top: 80px;
+        grid-column: 1/2;
+        grid-row: 6;
+        justify-self: center;
+        align-self: center;
+    }
+
     &__career-section {
         margin-top: 0px;
         margin-bottom: 104px;
@@ -104,5 +112,13 @@
     &__career--third {
         grid-column: 4/5;
         grid-row: 5;
+    }
+
+    &__career--more {
+        margin-top: 80px;
+        grid-column: 1/2;
+        grid-row: 6;
+        justify-self: center;
+        align-self: center;
     }
 }
