@@ -10,6 +10,8 @@ tags:
   - PostgreSQL
 order: 1
 period: 2025-2026
+featured: false
+featuredOrder: 9
 ---
 
 _En cours de rédaction_

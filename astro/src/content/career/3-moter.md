@@ -10,6 +10,8 @@ tags:
   - Gestion du changement
 order: 3
 period: 2020-'21
+featured: false
+featuredOrder: 9
 ---
 
 **basé à Mérignac (33) - périmètre Gironde - interventions en Nouvelle-Aquitaine et Midi-Pyrénées**

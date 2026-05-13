@@ -9,6 +9,8 @@ tags:
   - International
 order: 4
 period: 2021-'24
+featured: false
+featuredOrder: 9
 ---
 
 **basé à Nanterre (92) - périmètre Monde**

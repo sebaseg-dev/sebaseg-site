@@ -10,6 +10,8 @@ tags:
   - Contenus
 order: 0
 period: "2025"
+featured: false
+featuredOrder: 9
 ---
 
 _En cours de rédaction_

@@ -9,6 +9,8 @@ tags:
   - Droit des société
 order: 2
 period: 2018-'20
+featured: false
+featuredOrder: 9
 ---
 
 **basé à Toulouse (31) - périmètre Midi-Pyrénées**

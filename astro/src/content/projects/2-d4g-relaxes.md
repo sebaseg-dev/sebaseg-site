@@ -1,7 +1,7 @@
 ---
 title: Relaxes pour le Vivant
 publishDate: 2026-04-10
-img: /assets/relaxes_banner.webp
+img: /images/msde.webp
 img_alt: Drawing representing a bunch of people protesting, with Data For Good and MSDE associations' logos
 description: Projet de transmission des décisions de justice auprès des professionnels du droit
 tags:
@@ -9,6 +9,10 @@ tags:
   - Adonis.js
 order: 2
 period: "2026"
+partners: Data For Good x MSDE
+externalUrl: https://dataforgood.fr/projets/relaxes-pour-le-vivant
+featured: true
+featuredOrder: 3
 ---
 
 _En cours de rédaction_

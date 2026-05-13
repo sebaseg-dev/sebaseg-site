@@ -10,6 +10,8 @@ tags:
   - Comptabilité
 order: 1
 period: 2017-'18
+featured: false
+featuredOrder: 9
 ---
 
 **basé à Paris (75) - périmètre France**

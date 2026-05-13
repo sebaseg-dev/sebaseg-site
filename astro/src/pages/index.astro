@@ -1,5 +1,14 @@
 ---
+import { getCollection } from 'astro:content';
 import MainLayout from '../layouts/MainLayout.astro';
+
+const allProjects = await getCollection('projects');
+const featuredProjects = allProjects
+    .filter(project => project.data.featured)
+    .sort((a, b) => (a.data.featuredOrder ?? 9) - (b.data.featuredOrder ?? 9));
+
+console.log("Nombre total de projets :", allProjects.length);
+console.log("Projets mis en avant :", allProjects.filter(p => p.data.featured).length);
 ---
 
 <MainLayout title="sebaseg – accueil">
@@ -42,14 +51,29 @@ import MainLayout from '../layouts/MainLayout.astro';
                     <a href="https://eclaireurpublic.fr" class="component__project-card--link" target="_blank">eclaireurpublic.fr</a>
                 </div>
             </div>
-            <div class="landing__projects--third component__project-card">
+            <!-- <div class="landing__projects--third component__project-card">
                 <img src="/images/vinci.webp" alt="Migration vers SAP S/4 HANA avec Vinci Construction" class="component__project-card--image"/>
                 <div class="component__project-card--content">
                     <h3 class="component__project-card--title">Vinci SAP S/4 HANA e-CUBE</h3>
                     <p class="component__project-card--featuring">Vinci Construction</p>
                     <p class="component__project-card--description">Migration SAP S/4 HANA et conception de modules sur-mesure</p>
                 </div>
+            </div> -->
+            
+            <div class="landing__projects--third component__project-card">
+                <img 
+                    src={ featuredProjects[0].data.img } 
+                    alt={ featuredProjects[0].data.img_alt } 
+                    class="component__project-card--image"
+                />
+                <div class="component__project-card--content">
+                    <h3 class="component__project-card--title">{ featuredProjects[0].data.title }</h3>
+                    <p class="component__project-card--featuring">{ featuredProjects[0].data.partners }</p>
+                    <p class="component__project-card--description">{ featuredProjects[0].data.description }</p>
+                    <a href={ featuredProjects[0].data.externalUrl } class="component__project-card--link" target="_blank">{ featuredProjects[0].data.externalUrl }</a>
+                </div>
             </div>
+            
         </section>
 
         <section class="landing__career-section">

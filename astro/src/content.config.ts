@@ -1,5 +1,4 @@
-import { defineCollection } from 'astro:content';
-import { z } from 'astro/zod';
+import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
 const commonSchema = z.object({
@@ -11,6 +10,10 @@ const commonSchema = z.object({
     img_alt: z.string().optional(),
     order: z.number(),
     period: z.string(),
+    partners: z.string().optional(),
+    externalUrl: z.string().optional(),
+    featured: z.boolean().default(false),
+    featuredOrder: z.number().optional(),
 });
 
 export const collections = {

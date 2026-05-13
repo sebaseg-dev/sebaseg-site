@@ -12,6 +12,8 @@ tags:
   - Symfony
 order: 5
 period: 2024-auj'
+featured: true
+featuredOrder: 3
 ---
 
 Après plusieurs années à analyser et structurer l’information, j’ai choisi d’apprendre à la construire autrement. Ancien auditeur et responsable financier chez VINCI, j’ai décidé de me réinventer en me tournant vers le développement web, pour concevoir des applications utiles, cohérentes et pensées pour simplifier les workflows.
