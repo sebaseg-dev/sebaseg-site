@@ -16,11 +16,17 @@ featured: true
 featuredOrder: 2
 ---
 
+# Éclaireur public
+
 _En cours de rédaction_
+
+## Objectifs
 
 Depuis l’adoption de la loi pour une République numérique (2016), les collectivités sont légalement tenues de publier leurs données administratives en open data. Cependant, seulement 10% d'entre elles respectent cette obligation. Cette situation limite considérablement la capacité des citoyens, des journalistes et des organisations de lutte contre la corruption à surveiller l’utilisation des fonds publics.
 
 Éclaireur Public est une initiative portée par Transparency International France et Anticor. Le projet vise à pallier le manque de transparence dans la gestion des dépenses publiques des collectivités locales en France.
+
+## Liens
 
 - [Éclaireur Public](https://www.eclaireurpublic.fr/)
 - [Data For Good](https://dataforgood.fr/projets/eclaireur-public)

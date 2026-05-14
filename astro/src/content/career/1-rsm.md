@@ -14,15 +14,13 @@ featured: false
 featuredOrder: 9
 ---
 
-**basé à Paris (75) - périmètre France**
+# Auditeur financier @ RSM Paris
 
-<div class="borderTable">
+**basé à Paris (75) - périmètre France**
 
 | (en M€) | RSM International | RSM France | RSM Paris |
 | ------- | :---------------: | :--------: | :-------: |
 | CA 2017 | 5 095             | 96         | 44        |
-
-</div>
 
 **RSM Paris** est un cabinet d'audit, d'expertise et de conseil faisant partie du réseau global **RSM International**.
 

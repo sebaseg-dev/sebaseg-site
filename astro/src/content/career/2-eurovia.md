@@ -13,15 +13,13 @@ featured: false
 featuredOrder: 9
 ---
 
-**basé à Toulouse (31) - périmètre Midi-Pyrénées**
+# Cadre de gestion @ Eurovia
 
-<div class="borderTable">
+**basé à Toulouse (31) - périmètre Midi-Pyrénées**
 
 | (en M€) | Groupe Vinci | Eurovia | Eurovia Midi-Pyrénées |
 | ------- | :----------: | :-----: | :-------------------: |
 | CA 2019 | 48 053       | 10 209  | 170                   |
-
-</div>
 
 **Eurovia** est une entité de construction de routes et de génie civil au sein de la branche **Contracting** de **Vinci**, groupe coté au **CAC 40**.
 

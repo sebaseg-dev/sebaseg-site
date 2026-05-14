@@ -14,15 +14,13 @@ featured: false
 featuredOrder: 9
 ---
 
-**basé à Mérignac (33) - périmètre Gironde - interventions en Nouvelle-Aquitaine et Midi-Pyrénées**
+# Responsable financier @ Moter
 
-<div class="borderTable">
+**basé à Mérignac (33) - périmètre Gironde - interventions en Nouvelle-Aquitaine et Midi-Pyrénées**
 
 | (en M€) | Groupe Vinci | Vinci Construction | Agence Moter |
 | ------- | :----------: | :----------------: | :----------: |
 | CA 2021 | 49 396       | 26 282             | 50           |
-
-</div>
 
 **Moter** est une filiale **Vinci Construction** (ex-**Eurovia**) de travaux routiers et d'aménagements urbains et privés. Elle rassemble les établissements **Moter** (basée à Mérignac, exerçant principalement sur les zones de Bordeaux Métropole et du Nord-Est de la Gironde) et **Sanz TP Médoc** (basée à Pauillac, exerçant principalement dans le Médoc).
 

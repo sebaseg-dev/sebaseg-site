@@ -13,17 +13,15 @@ featured: false
 featuredOrder: 9
 ---
 
-**basé à Nanterre (92) - périmètre Monde**
+# Auditeur interne @ Vinci Construction
 
-<div class="borderTable">
+**basé à Nanterre (92) - périmètre Monde**
 
 | (en M€)               | Groupe Vinci | Vinci Construction |
 | --------------------- | :----------: | :----------------: |
 | CA France 2023        | 29 615 (43%) | 13 678 (43%)       |
 | CA International 2023 | 39 224 (57%) | 17 781 (57%)       |
 | CA Total 2023         | 68 839       | 31 459             |
-
-</div>
 
 **Vinci Construction** est un acteur majeur du BTP dans le monde, sur les domaines du bâtiment, du génie civil, des réseaux, des métiers de spécialité et du développement immobilier. L'entité est une branche du groupe **Vinci**, coté au **CAC 40**.
 

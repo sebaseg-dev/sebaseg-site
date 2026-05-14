@@ -16,4 +16,6 @@ featured: true
 featuredOrder: 3
 ---
 
+# Vinci SAP S/4 HANA e-CUBE
+
 _En cours de rédaction_

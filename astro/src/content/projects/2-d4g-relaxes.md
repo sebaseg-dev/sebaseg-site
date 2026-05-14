@@ -15,6 +15,8 @@ featured: true
 featuredOrder: 1
 ---
 
+# Relaxes pour le vivant
+
 _En cours de rédaction_
 
 ## État du projet
@@ -31,7 +33,7 @@ Créer une base de données qui centralise des décisions de justice pénale et 
 - Site Web mêlant visualisation graphique et mise en narration de la donnée
 - Mise en place d'une interface no-code qui sera utilisé pour administrer la donnée
 
----
+## Liens
 
 - [Data For Good](https://dataforgood.fr/)
 - [MSDE](https://msde-association.org/)
