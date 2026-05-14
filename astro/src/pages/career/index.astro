@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+import MainLayout from '../../layouts/MainLayout.astro';
+
+const posts = await getCollection('career');
+const sortedPosts = posts.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+---
+
+<MainLayout title="Mon parcours">
+  <h1>Parcours</h1>
+  <ul>
+    {sortedPosts.map(post => (
+      <li>
+        <a href={`/career/${post.id}`}>{post.data.title}</a>
+      </li>
+    ))}
+  </ul>
+</MainLayout>

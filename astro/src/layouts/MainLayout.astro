@@ -1,6 +1,7 @@
 ---
 import '../styles/main.scss';
 const { title } = Astro.props;
+const currentYear = new Date().getFullYear();
 ---
 
 <html lang="fr">
@@ -21,9 +22,9 @@ const { title } = Astro.props;
                 <p>Concepteur Développeur</p>
                 <nav class="header__navbar--navlist">
                     <a href="/">Accueil</a>
-                    <a href="#">Parcours</a>
-                    <a href="#">Projets</a>
-                    <a href="#">À propos</a>
+                    <a href="/career">Carrière</a>
+                    <a href="/projects">Projets</a>
+                    <a href="/about">À propos</a>
                 </nav>
             </div>
             <div class="component__stripes">
@@ -47,7 +48,11 @@ const { title } = Astro.props;
             </div>
             <div class="footer__content">
     		    <p>Conçu et Développé à Paris avec Astro</p>
-    		    <p>©2026 sebaseg | <a href="#">GitHub</a> | <a href="#">Linkedin</a></p>
+    		    <p>
+                    &copy;{currentYear} sebaseg | 
+                    <a href={import.meta.env.PUBLIC_GITHUB_URL} target="_blank">GitHub</a> | 
+                    <a href={import.meta.env.PUBLIC_LINKEDIN_URL} target="_blank">Linkedin</a>
+                </p>
     		    <p><a href="/legal">Mentions légales</a> | <a href="/accessibility">Accessibilité</a></p>
             </div>
 		</footer>

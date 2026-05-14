@@ -33,8 +33,20 @@
         }
     }
 
-    & > p {
+    & > p,
+    & > pre {
         grid-column: 2/5;
+    }
+
+    & > table {
+        grid-column: 2/5;
+        border: solid 1px $dark-point;
+        border-collapse: collapse;
+
+        & th,
+        & td {
+            border: solid 1px $dark-point;
+        }
     }
 
     & > ul {
