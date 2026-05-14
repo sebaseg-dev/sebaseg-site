@@ -19,6 +19,13 @@
 
         padding-bottom: 8px;
         padding-right: 8px;
+
+        &--content {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr);
+            gap: 8px;
+            word-break: break-word;
+        }
     }
 
     &__cta {
