@@ -1,6 +1,11 @@
 @use '../abstracts/colours' as *;
 
 .component {
+    &__a--decoration-none {
+        text-decoration: none;
+        color: inherit;
+    }
+
     &__invisible {
         display: none;
     }
@@ -38,6 +43,12 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
         gap: 24px;
+
+        &:hover {
+            .component__project-card--content {
+                background-color: $dark-point-overlay;
+            }
+        }
 
         &--image {
             grid-column: 1/2;
