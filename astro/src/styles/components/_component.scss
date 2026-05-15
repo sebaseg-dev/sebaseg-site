@@ -4,6 +4,7 @@
     &__a--decoration-none {
         text-decoration: none;
         color: inherit;
+        display: contents;
     }
 
     &__invisible {
@@ -36,6 +37,10 @@
     &__cta {
         padding: 24px;
         border: solid 1px $dark-point;
+
+        &:hover {
+            background-color: $dark-point-overlay;
+        }
     }
     
     &__project-card {
