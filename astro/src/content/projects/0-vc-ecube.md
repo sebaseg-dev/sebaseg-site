@@ -11,7 +11,8 @@ tags:
 order: 0
 period: "2021"
 partners: Vinci Construction
-externalUrl: https://vinci-construction.com/fr/
+externalLinkUrl: https://vinci-construction.com/fr/
+externalLinkTag: vinci-construction.com
 featured: true
 featuredOrder: 3
 ---

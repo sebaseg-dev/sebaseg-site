@@ -11,7 +11,8 @@ const commonSchema = z.object({
     order: z.number(),
     period: z.string(),
     partners: z.string().optional(),
-    externalUrl: z.string().optional(),
+    externalLinkUrl: z.string().optional(),
+    externalLinkTag: z.string().optional(),
     featured: z.boolean().default(false),
     featuredOrder: z.number().optional(),
 });

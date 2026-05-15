@@ -42,13 +42,15 @@ const featuredProjects = allProjects
                         <h3 class="component__project-card--title">{ project.data.title }</h3>
                         <p class="component__project-card--featuring">{ project.data.partners }</p>
                         <p class="component__project-card--description">{ project.data.description }</p>
-                        <a 
-                            href={ project.data.externalUrl } 
-                            class="component__project-card--link" 
-                            target="_blank"
-                        >
-                            { project.data.externalUrl }
-                        </a>
+                        {project.data.externalLinkUrl && 
+                            <a 
+                                href={ project.data.externalLinkUrl } 
+                                class="component__project-card--link" 
+                                target="_blank"
+                            >
+                                { project.data.externalLinkTag }
+                            </a>
+                        }
                     </div>
                 </div>
             ))}

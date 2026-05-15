@@ -11,7 +11,8 @@ tags:
 order: 0
 period: "2025"
 partners: Data For Good x Anticor x Transparency International France
-externalUrl: https://eclaireurpublic.fr/
+externalLinkUrl: https://eclaireurpublic.fr/
+externalLinkTag: eclaireurpublic.fr
 featured: true
 featuredOrder: 2
 ---

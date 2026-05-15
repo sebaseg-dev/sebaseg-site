@@ -10,7 +10,8 @@ tags:
 order: 2
 period: "2026"
 partners: Data For Good x MSDE
-externalUrl: https://dataforgood.fr/projets/relaxes-pour-le-vivant
+externalLinkUrl: https://dataforgood.fr/projets/relaxes-pour-le-vivant
+externalLinkTag: dataforgood.fr
 featured: true
 featuredOrder: 1
 ---
