@@ -1,18 +1,19 @@
 ---
 import { getCollection } from 'astro:content';
 import MainLayout from '../../layouts/MainLayout.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
 
 const posts = await getCollection('projects');
 const sortedPosts = posts.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 ---
 
 <MainLayout title="Mon parcours">
-  <h1>Projets</h1>
-  <ul>
+  <section class="single-column-page">
+    <h1>Projets</h1>
+    
     {sortedPosts.map(post => (
-      <li>
-        <a href={`/projects/${post.id}`}>{post.data.title}</a>
-      </li>
+        <ProjectCard project={post} /> 
     ))}
-  </ul>
+    
+  </section>
 </MainLayout>
