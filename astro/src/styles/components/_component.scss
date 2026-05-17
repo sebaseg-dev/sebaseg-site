@@ -42,6 +42,11 @@
             background-color: $dark-point-overlay;
         }
     }
+
+    &__hero-image {
+        grid-column: 2/4;
+        width: 100%;
+    }
     
     &__project-card {
         display: grid;

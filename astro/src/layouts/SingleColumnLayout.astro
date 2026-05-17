@@ -1,10 +1,15 @@
 ---
 import MainLayout from "./MainLayout.astro";
 const { frontmatter } = Astro.props;
+const hasImage = frontmatter.img !== undefined;
 ---
 
 <MainLayout title={frontmatter.title}>
     <section class="single-column-page">
+        <h1>{frontmatter.title}</h1>
+        {hasImage && (
+            <img class="component__hero-image" src={frontmatter.img} alt={frontmatter.img_alt} />
+        )}
         <slot />
     </section>
 </MainLayout>

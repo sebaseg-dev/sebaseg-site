@@ -4,7 +4,7 @@ import MainLayout from '../../layouts/MainLayout.astro';
 import ProjectCard from '../../components/ProjectCard.astro';
 
 const posts = await getCollection('projects');
-const sortedPosts = posts.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+const sortedPosts = posts.sort((a, b) => b.data.order - a.data.order);
 ---
 
 <MainLayout title="Mon parcours">

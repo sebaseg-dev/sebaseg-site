@@ -14,8 +14,6 @@ featured: false
 featuredOrder: 9
 ---
 
-# Formation initiale en finance
-
 - 2017 – Diplôme Supérieur de Comptabilité et de Gestion | candidat libre
 - 2017 – Master Comptabilité-Contrôle-Audit | IAE
 - 2015 – Licence Comptabilité-Contrôle | IAE
