@@ -70,7 +70,15 @@ Ce projet a marqué mon entrée dans **Data For Good** et ma première collabora
 **Résultats** : Mes contributions ont été intégrées à la version finale de l’outil, aujourd’hui utilisé par des citoyens, journalistes et associations pour surveiller les dépenses publiques.
 
 ## Liens
+
 - [Éclaireur Public](https://www.eclaireurpublic.fr/)
 - [Data For Good](https://dataforgood.fr/projets/eclaireur-public)
 - [Anticor](https://www.anticor.org/)
 - [Transparency International France](https://transparency-france.org/)
+
+Dans la presse :
+
+- [**Le Parisien** (21/02/2026) – _Marchés publics, subventions... Anticor lance un site pour contrôler les dépenses de votre commune_](https://www.leparisien.fr/economie/marches-publics-subventions-anticor-lance-un-site-pour-controler-les-depenses-de-votre-commune-21-02-2026-7KQNH4KHWJABXORR3MT5OUPT6I.php)
+- [**Le Moniteur** (20/02/2026) – _Commande publique : avec la plateforme « Eclaireur public », Anticor œuvre à davantage de transparence_](https://www.lemoniteur.fr/reglementation/marches-publics/commande-publique-avec-la-plateforme-eclaireur-public-anticor-oeuvre-a-davantage-de-transparence.EUVIWWBTRZF5FOYNHQQ3G4PVME.html)
+- [**L'Écho Républicain** (04/05/2026) – _"Réintéresser les citoyens à l’action publique": Anticor crée une plateforme sur la transparence des collectivités territoriales_](https://www.lechorepublicain.fr/chartres-28000/actualites/reinteresser-les-citoyens-a-laction-publique-anticor-cree-une-plateforme-sur-la-transparence-des-collectivites-territoriales_14975572/)
+- [**La Lettre du Cadre Territorial** (16/03/2026) – _Avec "Éclaireur Public", Anticor et Data for Good scrutent les budgets locaux_](https://www.lettreducadre.fr/article/avec-eclaireur-public-anticor-et-data-for-good-scrutent-les-budgets-locaux.55401)
