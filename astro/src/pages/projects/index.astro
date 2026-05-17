@@ -10,10 +10,8 @@ const sortedPosts = posts.sort((a, b) => b.data.publishDate.valueOf() - a.data.p
 <MainLayout title="Mon parcours">
   <section class="single-column-page">
     <h1>Projets</h1>
-    
-    {sortedPosts.map(post => (
-        <ProjectCard project={post} /> 
+    {sortedPosts.map(content => (
+        <ProjectCard type="projects" content={content} /> 
     ))}
-    
   </section>
 </MainLayout>

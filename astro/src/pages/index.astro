@@ -32,8 +32,8 @@ const featuredProjects = allProjects
                 <span>Principaux projets</span>
             </h2>
             
-            {featuredProjects.map((project) => (
-                <ProjectCard class={`landing__projects--${project.data.featuredOrder}`} project={project}/>
+            {featuredProjects.map((content) => (
+                <ProjectCard class={`landing__projects--${content.data.featuredOrder}`} type="projects" content={content}/>
             ))}
 
             <a href="/projects" class="landing__projects--more component__cta">Autres projets</a>
