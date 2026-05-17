@@ -26,7 +26,7 @@ export const collections = {
     }),
     
     projects: defineCollection({
-        loader: glob({ base: 'src/content/projects', pattern: '**/*.md' }),
+        loader: glob({ base: 'src/content/projects', pattern: '**/*.{md,mdx}' }),
         schema: commonSchema,
     }),
     

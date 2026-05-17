@@ -1,8 +1,8 @@
 ---
 title: Reconversion – Développement
 publishDate: 2025-12-12
-img: /assets/stock-4.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img: /images/oc.webp
+img_alt: Formation Concepteur Développeur d'Applications chez OpenClassrooms
 description: Reconversion en développement
 tags:
   - Fullstack
