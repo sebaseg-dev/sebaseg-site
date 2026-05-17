@@ -33,6 +33,8 @@ Le parcours complet donne accès à la certification dès lors que les 14 projet
 
 ### 1. Démarrage de la formation
 
+![OpenClassrooms projet 1 démarrage de la formation](/images/oc_p1.webp)
+
 **Description** :  
 
 Projet d'intégration et de cadrage visant à poser les fondations de la formation et de la future posture professionnelle. Ce projet a permis de définir les objectifs de carrière, de planifier le calendrier des livrables et des soutenances en autonomie, et de s'approprier les outils de collaboration avec le mentorat. Il a également intégré une initiation aux enjeux de l'Intelligence Artificielle (IA), une introduction aux mécanismes d'apprentissage du cerveau, ainsi que la mise en place d'une routine de veille informationnelle.
@@ -45,9 +47,11 @@ Projet d'intégration et de cadrage visant à poser les fondations de la formati
 
 ### 2. Booki
 
+![OpenClassrooms projet 2 Booki](/images/oc_p2.webp)
+
 **Description** :  
 
-Développement de l'interface responsive et *pixel-perfect* de la page d'accueil de la start-up Booki, permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix. À partir de maquettes Figma (Desktop, Tablette et Mobile) et d'une note de spécifications techniques, l'intégration a été entièrement codée de zéro sans s'appuyer sur les générateurs de code automatique de Figma, afin de garantie un code propre, léger et respectueux des principes du Green Code. Le positionnement et la flexibilité de l'interface reposent intégralement sur l'usage de Flexbox.
+Développement de l'interface responsive et *pixel-perfect* de la page d'accueil de la start-up Booki, permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix. À partir de maquettes Figma (Desktop, Tablette et Mobile) et d'une note de spécifications techniques, l'intégration a été entièrement codée de zéro sans s'appuyer sur les générateurs de code automatique de Figma, afin de garantir un code propre, léger et respectueux des principes du Green Code. Le positionnement et la flexibilité de l'interface reposent intégralement sur l'usage de Flexbox.
 
 **Compétences clefs** :  
 
@@ -56,7 +60,15 @@ Développement de l'interface responsive et *pixel-perfect* de la page d'accueil
 - **Qualité du code et Green Code** : Écriture d'un code CSS3 structuré, optimisé et exempt de propriétés superflues afin de limiter le poids de la page et d'optimiser les performances.
 - **Soutenance technique** : Présentation et argumentation des choix d'architecture CSS devant un évaluateur simulant une situation professionnelle (direction technique).
 
+**Liens** :
+
+- [Repo GitHub](https://github.com/sebaseg-dev/oc_p2_booki)
+- [Hébergement GitHub Pages](https://sebaseg-dev.github.io/oc_p2_booki/)
+- [Hébergement sebaseg.fr](https://oc-p2.sebaseg.fr/)
+
 ### 3. Ohmyfood
+
+![OpenClassrooms projet 3 Ohmyfood](/images/oc_p3.webp)
 
 **Description** :  
 
@@ -70,7 +82,15 @@ Développement en "mobile-first" du site d'une start-up parisienne répertoriant
 - **Gestion de versions** : Utilisation rigoureuse de Git pour le suivi des modifications et hébergement du dépôt sur GitHub.
 - **Soutenance technique** : Présentation et justification détaillée du fonctionnement des animations et des choix d'organisation du code devant un évaluateur technique.
 
+**Liens** :
+
+- [Repo GitHub](https://github.com/sebaseg-dev/oc_p3_oh_my_food)
+- [Hébergement GitHub Pages](https://sebaseg-dev.github.io/oc_p3_oh_my_food/)
+- [Hébergement sebaseg.fr](https://oc-p3.sebaseg.fr/)
+
 ### 4. GameOn
+
+![OpenClassrooms projet 4 GameOn](/images/oc_p4.webp)
 
 **Description** :  
 
@@ -84,7 +104,15 @@ Première immersion dans le développement logique avec JavaScript Vanilla (pur)
 - **Workflow collaboratif (Git/GitHub)** : Travail en autonomie à partir d'un *fork* de dépôt, traitement d'issues techniques et livraison d'un code documenté.
 - **Soutenance technique & Revue de code** : Présentation de la logique de validation, justification des choix algorithmiques et démonstration des tests manuels lors d'une session de revue de code avec la direction technique.
 
+**Liens** :
+
+- [Repo GitHub](https://github.com/sebaseg-dev/oc_p4_game_on)
+- [Hébergement GitHub Pages](https://sebaseg-dev.github.io/oc_p4_game_on/)
+- [Hébergement sebaseg.fr](https://oc-p4.sebaseg.fr/)
+
 ### 5. Test – Langages du Web
+
+![OpenClassrooms projet 5 Test sur les Langages du Web](/images/oc_p5.webp)
 
 **Description** :  
 
@@ -97,7 +125,13 @@ Projet pratique de validation des acquis techniques sous forme de mini-défi, vi
 - **Utilisation avancée de GitHub** : Résolution d'exercices et documentation du travail validé par le biais de captures de tests directement sur la plateforme de versionnage.
 - **Bilan technique et mentorat** : Débriefing orienté amélioration continue avec un mentor accompagnateur pour valider la conformité des réponses et des bonnes pratiques de développement.
 
+**Liens** :
+
+- [Repo GitHub](https://github.com/sebaseg-dev/oc_p5_exercises)
+
 ### 6. FishEye
+
+![OpenClassrooms projet 6 FishEye](/images/oc_p6.webp)
 
 **Description** :  
 
@@ -111,7 +145,15 @@ Développement du prototype fonctionnel et dynamique de la plateforme FishEye, u
 - **Automatisation & CI/CD** : Configuration d'un workflow automatisé avec GitHub Actions pour assurer le déploiement continu (CD) de la branche principale sur GitHub Pages.
 - **Soutenance & Démonstration professionnelle** : Présentation sur diapositives et démonstration technique en direct (navigation exclusive au clavier) simulant une validation de livrable devant une direction de projet.
 
+**Liens** :
+
+- [Repo GitHub](https://github.com/sebaseg-dev/oc_p6_fish_eye)
+- [Hébergement GitHub Pages](https://sebaseg-dev.github.io/oc_p6_fish_eye/)
+- [Hébergement sebaseg.fr](https://oc-p6.sebaseg.fr/)
+
 ### 7. Les petits plats
+
+![OpenClassrooms projet 7 Les petits plats](/images/oc_p7.webp)
 
 **Description** :  
 
@@ -125,7 +167,15 @@ Mission en freelance de 3 mois pour l'entreprise « Les petits plats » visant �
 - **Sécurisation des données & Éco-conception** : Neutralisation des risques d'injections de balises HTML (failles XSS) dans les champs de saisie et découpage modulaire du code JavaScript en fonctions réutilisables pour limiter l'empreinte carbone de l'application (Green Code).
 - **Soutenance & Argumentation technique** : Présentation et défense des choix d'implémentation et de la recommandation finale face au Lead Developer.
 
+**Liens** :
+
+- [Repo GitHub](https://github.com/sebaseg-dev/oc_p7_petits_plats)
+- [Hébergement GitHub Pages](https://sebaseg-dev.github.io/oc_p7_petits_plats/)
+- [Hébergement sebaseg.fr](https://oc-p7.sebaseg.fr/)
+
 ### 8. Test – Algorithmes en JavaScript
+
+![OpenClassrooms projet 8 Test sur les Algorithmes en JavaScript](/images/oc_p8.webp)
 
 **Description** :  
 
@@ -138,7 +188,13 @@ Deuxième projet d'évaluation et de consolidation des acquis sous forme d'ateli
 - **Validation technique sur GitHub** : Exécution de tests, résolution des anomalies de logique et documentation de la réussite des exercices par des comptes-rendus visuels.
 - **Amélioration continue & Mentorat** : Analyse des axes d'optimisation du code et revue des patterns algorithmiques lors d'une session de débriefing de compétences avec le mentor accompagnateur.
 
+**Liens** :
+
+- [Repo GitHub](https://github.com/sebaseg-dev/oc_p8_exercises)
+
 ### 9. Billed
+
+![OpenClassrooms projet 9 Billed](/images/oc_p9.webp)
 
 **Description** :  
 
@@ -152,7 +208,15 @@ Intervention technique en renfort au sein de la *feature team* « note de frais 
 - **Ingénierie qualité & Tests E2E manuels** : Rédaction d'un plan de test complet *End-to-End* (E2E) formalisant l'intégralité des scénarios et des parcours utilisateur de la plateforme (profil employé).
 - **Intégration continue (CI)** : Automatisation de l'exécution de la suite de tests Jest à chaque modification du code via la mise en place d'un workflow d'intégration continue avec GitHub Actions.
 
+**Liens** :
+
+- [Repo GitHub – Front](https://github.com/sebaseg-dev/oc_p9_billed_front)
+- [Repo GitHub – Back](https://github.com/sebaseg-dev/oc_p9_billed_back)
+- [Rapport de couverture hébergé sur GitHub Pages](https://sebaseg-dev.github.io/oc_p9_billed_front/)
+
 ### 10. Learn@Home
+
+![OpenClassrooms projet 10 Learn At Home](/images/oc_p10.webp)
 
 **Description** :  
 
@@ -166,7 +230,14 @@ Cadrage de projet et modélisation technique pour l'association Learn@Home, une 
 - **Gestion de projet Agile & Planification** : Structuration de la feuille de route du projet au travers d'un tableau Kanban GitHub, catégorisant les fonctionnalités par blocs logiques et sous-fonctionnalités (colonne "ANALYZE").
 - **Posture de Business Analyst & Soutenance** : Présentation des arbitrages fonctionnels et démonstration du flux de navigation (*user flow*) lors d'une simulation de comité de projet devant le client final.
 
+**Liens** :
+
+- [Repo GitHub](https://github.com/sebaseg-dev/oc_p10_Learn-Home)
+- [Prototype PenPot](https://design.penpot.app/#/view?file-id=4a3137dc-4525-81fb-8006-2866359f32e7&page-id=cd1b7262-92e8-808c-8006-2d89c64fc07f&section=interactions&frame-id=cd1b7262-92e8-808c-8006-2d89fb499b2c&index=1&share-id=58bde003-d19a-807a-8006-2d994b8ae5c4)
+
 ### 11. Kasa
+
+![OpenClassrooms projet 11 Kasa](/images/oc_p11.webp)
 
 **Description** :  
 
@@ -180,7 +251,14 @@ Développement de la nouvelle plateforme web de Kasa, l'un des leaders de la loc
 - **Stylisation avancée & Animations (SASS)** : Intégration rigoureuse des maquettes et implémentation d'animations CSS fluides (transitions d'ouverture/fermeture des menus déroulants) structurées selon la méthodologie SASS.
 - **Code Review & Posture Professionnelle** : Présentation de l'architecture du code source et défense des choix d'ingénierie logicielle lors d'une soutenance de validation technique simulant un livrable devant la CTO.
 
+**Liens** :
+
+- [Repo GitHub](https://github.com/sebaseg-dev/oc_p11_kasa)
+- [Hébergement Vercel](https://oc-p11-kasa.vercel.app/)
+
 ### 12. SportSee
+
+![OpenClassrooms projet 12 SportSee](/images/oc_p12.webp)
 
 **Description** :  
 
@@ -194,7 +272,14 @@ Développement de la nouvelle version de la page profil utilisateur pour SportSe
 - **Stratégie de Mocking & Commutation d'environnement** : Création d'un jeu de données statiques sous TypeScript et mise en œuvre d'un commutateur de configuration globale (*switch*) permettant à l'application de s'exécuter de façon autonome en mode déconnecté (données *mockées*) ou connectée (données réelles de l'API).
 - **Rigueur de production & Documentation** : Structuration de l'application (initialisée sous Vite), sécurisation des typages de données entrantes, et documentation technique du projet avec JSDoc et la rédaction d'un fichier README clair.
 
+**Liens** :
+
+- [Repo GitHub](https://github.com/sebaseg-dev/oc_p12_sportsee)
+- [Hébergement Vercel](https://oc-p12-sportsee.vercel.app/) – _seules les pages `/user/12` et `/user/18` ont été développées dans le cadre de cette évaluation_
+
 ### 13. Argent Bank
+
+![OpenClassrooms projet 13 Argent Bank](/images/oc_p13.webp)
 
 **Description** :  
 
@@ -208,7 +293,14 @@ Développement de la phase initiale de l'application web pour la nouvelle enseig
 - **Modélisation d'API REST (Swagger / OpenAPI)** : Rédaction et structuration d'une spécification technique d'API au format YAML en respectant les normes Swagger. Modélisation complète des futures fonctionnalités de transactions (visualisation, ajout, édition, suppression) avec définition des verbes HTTP, des routes, des paramètres et des codes de réponses d'erreurs (ex: 401, 404).
 - **Code Review & Soutenance Technique** : Présentation et argumentation des choix d'architecture logicielle, du flux d'authentification et de la proposition d'API lors d'une session de *code review* devant le VP Engineering de la banque.
 
+**Liens** :
+
+- [Repo GitHub – Front & Back](https://github.com/sebaseg-dev/oc_p13_argentbank)
+- [Repo GitHub – Back](https://github.com/sebaseg-dev/oc_p13_argentbank_back)
+
 ### 14. HRnet
+
+![OpenClassrooms projet 14 HRnet](/images/oc_p14.webp)
 
 **Description** :  
 
@@ -223,6 +315,11 @@ Projet de fin d'études axé sur la modernisation d'une infrastructure logiciell
 - **Automatisation & CI/CD avancée** : Conception et mise en œuvre de workflows automatisés avec GitHub Actions pour tester, builder et déployer automatiquement l'application sur un environnement de production.
 - **Clôture de parcours & Soutenance de fin d'études** : Rédaction d'une documentation technique claire (fichiers README, typages et documentation d'utilisation des composants) et soutenance devant un jury pour valider la réussite de la transition logicielle.
 
+**Liens** :
+
+- [Repo GitHub](https://github.com/sebaseg-dev/oc_p14_HRnet)
+- [Hébergement Vercel](https://oc-p14-h-rnet.vercel.app/)
+
 ## Participation et apprentissages
 
 Ces projets ont marqué une étape clef dans ma reconversion :
@@ -233,6 +330,7 @@ Ces projets ont marqué une étape clef dans ma reconversion :
 - **Résolution de problèmes** : Analyse des performances, optimisation du code et réduction de la dette technique.
 - **Éthique et accessibilité** : Application des bonnes pratiques (Green Code, WCAG) pour des applications **performantes et inclusives**.
 
-## Liens utiles
+## Liens
+
 - [Formation OpenClassrooms](https://openclassrooms.com/fr/paths/877-developpeur-d-application-javascript-react)
 - [Page formation sur _sebaseg.fr_](/career/5-formation-reconversion)

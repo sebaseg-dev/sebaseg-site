@@ -91,6 +91,14 @@
         margin-top: -24px;
     }
 
+    & img {
+        max-width: calc(50vw -  48px);
+
+        @media (max-width: $breakpoint-tablet) {
+            max-width: 100%;
+        }
+    }
+
     @media (max-width: $breakpoint-tablet) {
         display: flex;
         flex-direction: column;;
