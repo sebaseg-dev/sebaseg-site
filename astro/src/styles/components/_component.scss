@@ -1,4 +1,5 @@
 @use '../abstracts/colours' as *;
+@use '../abstracts/breakpoints' as *;
 
 .component {
     &__a--decoration-none {
@@ -8,7 +9,7 @@
     }
 
     &__invisible {
-        display: none;
+        display: none !important;
     }
 
     &__career-card {
@@ -31,6 +32,22 @@
             grid-template-columns: minmax(0, 1fr);
             gap: 8px;
             word-break: break-word;
+        }
+
+        @media (max-width: $breakpoint-tablet) {
+            background-image: none;
+            padding: 0 0 16px 0;
+            border-bottom: solid 2px;
+
+            border-image: linear-gradient(
+            to right, 
+            transparent 0%, 
+            transparent 20%, 
+            $dark-point 20%, 
+            $dark-point 80%, 
+            transparent 80%, 
+            transparent 100%
+            ) 1;
         }
     }
 

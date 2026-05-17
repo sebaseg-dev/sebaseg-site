@@ -1,4 +1,5 @@
 @use '../abstracts/colours' as *;
+@use '../abstracts/breakpoints' as *;
 
 .footer {
     margin: 0 24px;
@@ -11,5 +12,9 @@
         display: flex;
         flex-direction: column;
         gap: 16px;
+    }
+
+    @media (max-width: $breakpoint-tablet) {
+        margin: 0;
     }
 }
