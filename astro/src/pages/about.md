@@ -1,11 +1,9 @@
 ---
 layout: ../layouts/SingleColumnLayout.astro
-title: "sebaseg – à propos"
+title: À propos
 ---
 
-# À propos
-
-## 01. Mon parcours
+## Mon parcours
 
  Pendant plusieurs années, j’ai travaillé à analyser et structurer l’information financière dans des groupes internationaux. Au fil du temps, j’ai ressenti l’envie de la traiter autrement : transformer les données en expériences compréhensibles et engageantes pour ceux qui les utilisent.
 
@@ -15,7 +13,7 @@ Pour y parvenir, je me suis formé au développement web (React, JavaScript, Sym
 
 Je travaille actuellement sur un projet logiciel concret, qui relie mes expériences passées à des solutions numériques tangibles et utiles. C’est un espace où rigueur et créativité se rencontrent, et où je peux expérimenter tout en restant fidèle à l’expérience utilisateur.
 
-## 02. Transformer la complexité
+## Transformer la complexité
 
  Dans mes anciennes responsabilités, je décortiquais des systèmes pour comprendre ce qui fonctionnait… ou pas. J’avais parfois l’impression d’être en bout de chaîne, de devoir construire des ponts entre des demandes incompatibles, sans pouvoir agir sur l’origine des problèmes. Le développement m’a offert cette possibilité : comprendre un besoin, imaginer une solution, et créer un outil qui fonctionne réellement pour ceux qui l’utilisent.
 
@@ -23,7 +21,7 @@ Cette transition me permet de combiner deux univers : la rigueur et la précisio
 
 Chaque projet est une occasion de transformer des systèmes complexes en expériences claires, utiles et agréables. C’est ce qui me motive et guide mon travail au quotidien. 
 
-## 03. Formation
+## Formation
 
 - 2025 – Développeur d’application JavaScript React — OpenClassrooms
 - 2017 – DSCG — candidat libre
@@ -31,7 +29,7 @@ Chaque projet est une occasion de transformer des systèmes complexes en expéri
 - 2015 – Licence Comptabilité-Contrôle — IAE
 - 2014 – DUT GEA — IUT de Poitiers
 
-## 04. Compétences
+## Compétences
 
 - JavaScript
 - React

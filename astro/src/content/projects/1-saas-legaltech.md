@@ -15,6 +15,4 @@ featured: false
 featuredOrder: 9
 ---
 
-# SaaS legalTech
-
 _En cours de rédaction_

@@ -5,6 +5,8 @@ const { frontmatter } = Astro.props;
 
 <MainLayout title={frontmatter.title}>
     <section class="single-column-page">
+        <h1>{frontmatter.title}</h1>
+        <img src={frontmatter.img} alt={frontmatter.img_alt} />
         <slot />
     </section>
 </MainLayout>

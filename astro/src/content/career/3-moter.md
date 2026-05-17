@@ -14,8 +14,6 @@ featured: false
 featuredOrder: 9
 ---
 
-# Responsable financier @ Moter
-
 **basé à Mérignac (33) - périmètre Gironde - interventions en Nouvelle-Aquitaine et Midi-Pyrénées**
 
 | (en M€) | Groupe Vinci | Vinci Construction | Agence Moter |

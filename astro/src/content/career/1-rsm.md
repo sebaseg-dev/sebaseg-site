@@ -14,8 +14,6 @@ featured: false
 featuredOrder: 9
 ---
 
-# Auditeur financier @ RSM Paris
-
 **basé à Paris (75) - périmètre France**
 
 | (en M€) | RSM International | RSM France | RSM Paris |

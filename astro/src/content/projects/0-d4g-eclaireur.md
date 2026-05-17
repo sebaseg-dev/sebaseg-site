@@ -18,8 +18,6 @@ featured: true
 featuredOrder: 2
 ---
 
-# Éclaireur Public
-
 ## Acteurs
 
 - **Data For Good** : Association citoyenne qui mobilise des experts en données et technologie pour développer des outils numériques au service de l’intérêt général (climat, justice sociale, démocratie).

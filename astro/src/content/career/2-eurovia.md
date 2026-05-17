@@ -13,8 +13,6 @@ featured: false
 featuredOrder: 9
 ---
 
-# Cadre de gestion @ Eurovia
-
 **basé à Toulouse (31) - périmètre Midi-Pyrénées**
 
 | (en M€) | Groupe Vinci | Eurovia | Eurovia Midi-Pyrénées |

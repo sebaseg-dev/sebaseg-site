@@ -16,8 +16,6 @@ featured: true
 featuredOrder: 1
 ---
 
-# Relaxes pour le vivant
-
 _En cours de rédaction_
 
 ## État du projet

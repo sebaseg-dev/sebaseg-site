@@ -13,8 +13,6 @@ featured: false
 featuredOrder: 9
 ---
 
-# Auditeur interne @ Vinci Construction
-
 **basé à Nanterre (92) - périmètre Monde**
 
 | (en M€)               | Groupe Vinci | Vinci Construction |
