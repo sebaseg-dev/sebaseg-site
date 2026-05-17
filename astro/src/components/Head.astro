@@ -1,0 +1,14 @@
+---
+const { title } = Astro.props;
+const umamiTrackingCode = import.meta.env.PUBLIC_UMAMI_DATA_WEBSITE_ID;
+---
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="icon" href="/favicon.ico" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="generator" content={Astro.generator} />
+	<script defer src="https://umami.sebaseg.fr/script.js" data-website-id={umamiTrackingCode}></script>
+	<title>{title}</title>
+</head>

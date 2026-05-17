@@ -1,6 +1,7 @@
 ---
 const { class: className, content, type } = Astro.props;
 ---
+
 <div class={`component__project-card ${className}`}>
     <a class="component__a--decoration-none" href={`/${type}/${content.id}`}>
         <img 

@@ -1,18 +1,13 @@
 ---
 import '../styles/main.scss';
+import Head from '../components/Head.astro';
+
 const { title } = Astro.props;
 const currentYear = new Date().getFullYear();
 ---
 
 <html lang="fr">
-    <head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
+    <Head title={title} />
 	<body>
     	<header class="header">
             <div class="header__brand">
