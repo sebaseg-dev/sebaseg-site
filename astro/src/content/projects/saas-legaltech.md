@@ -9,7 +9,7 @@ tags:
   - Symfony
   - React
   - PostgreSQL
-order: 2
+order: 252
 period: 2025-2026
 partners: Projet personnel
 # externalLinkUrl: url

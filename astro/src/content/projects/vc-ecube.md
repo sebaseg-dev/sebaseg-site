@@ -11,7 +11,7 @@ tags:
   - Formation
   - Support utilisateurs
   - Migration de données
-order: 0
+order: 201
 period: "2020-2022"
 partners: Vinci Construction France x Accenture
 externalLinkUrl: https://vinci-construction.com/fr/
