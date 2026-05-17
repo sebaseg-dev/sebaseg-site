@@ -39,6 +39,27 @@
             color: $light-point;
         }
     }
+    
+    & > h3 {
+        grid-column: 1/5;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 24px;
+        align-items: center;
+
+        &:after {
+            content: "";
+            grid-column: 2/5;
+            height: 16px;
+            background-color: $dark-point;
+        }
+
+        @media (max-width: $breakpoint-tablet) {
+            display: block;
+            background-color: $dark-point;
+            color: $light-point;
+        }
+    }
 
     & > p,
     & > pre {
