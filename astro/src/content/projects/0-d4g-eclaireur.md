@@ -4,7 +4,7 @@ publishDate: 2026-02-13
 updateDate: 2026-05-17
 img: /images/eclaireur_public.webp
 img_alt: Éclaireur public avec Data For Good, Anticor et Transparency International France
-description: Plateforme grand public de diagnostic de la transparence publique
+description: Plateforme open-source pour évaluer la transparence des dépenses publiques locales – Un projet Data For Good x Anticor x Transparency International.
 tags:
   - Design/UX
   - Accessibilité
@@ -18,23 +18,32 @@ featured: true
 featuredOrder: 2
 ---
 
-# Éclaireur public
+# Éclaireur Public
 
 ## Acteurs
 
-- **Data For Good** : association citoyenne qui mobilise une communauté de bénévoles experts en données et en technologie pour mettre leurs compétences au service de l’intérêt général. Elle accompagne ONG et acteurs sociaux en développant des outils numériques (collecte de données, plateformes, algorithmes) pour renforcer leur impact sur des enjeux comme le climat, la justice sociale ou la démocratie
-- **Anticor** : association indépendante qui lutte contre la corruption et promeut l’éthique en politique pour restaurer la confiance entre citoyens et représentants. Elle agit via des engagements éthiques, le soutien aux lanceurs d’alerte et des signalements judiciaires, financée uniquement par des dons.
-- **Transparency International France** : ONG indépendante qui combat la corruption sous toutes ses formes. Elle promeut la transparence et l’intégrité dans la vie publique et économique, en documentant les systèmes corrompus et en exigeant plus de responsabilité, pour un monde plus juste.
+- **Data For Good** : Association citoyenne qui mobilise des experts en données et technologie pour développer des outils numériques au service de l’intérêt général (climat, justice sociale, démocratie).
+- **Anticor** : Association indépendante luttant contre la corruption et promouvant l’éthique en politique pour restaurer la confiance entre citoyens et représentants.
+- **Transparency International France** : ONG qui combat la corruption en promouvant la transparence et l’intégrité dans la vie publique et économique.
 
-## Objectifs
+## Objectifs et livrables
 
-Depuis l’adoption de la loi pour une République numérique (2016), les collectivités sont légalement tenues de publier leurs données administratives en open data. Cependant, seulement 10% d'entre elles respectent cette obligation. Cette situation limite considérablement la capacité des citoyens, des journalistes et des organisations de lutte contre la corruption à surveiller l’utilisation des fonds publics.
+Malgré la loi de 2016, **seulement 10% des collectivités françaises publient leurs données administratives en open data**. **Éclaireur Public** comble ce manque de transparence en offrant un outil web interactif permettant aux citoyens, journalistes et associations de :
 
-Éclaireur Public est une initiative portée par Transparency International France et Anticor. Le projet vise à pallier le manque de transparence dans la gestion des dépenses publiques des collectivités locales en France.
+- **Explorer** les subventions et marchés publics via une interface de recherche intuitive.
+- **Évaluer** la transparence des collectivités grâce à un système de notation.
+- **Détecter** les anomalies dans les attributions de marchés et subventions avec des outils analytiques avancés.
+- **Agir** en identifiant les contacts locaux à interpeller pour exiger plus de données.
 
 ## Participation
+Ce projet a marqué mon entrée dans **Data For Good** et ma première collaboration open-source en équipe agile. Au sein de l’équipe **Design-UX**, j’ai :
 
+- **Mené** des entretiens avec des journalistes et des citoyens pour identifier leurs besoins en matière d’accès aux données publiques.
+- **Conçu** des maquettes et des parcours utilisateurs pour simplifier l’exploration des données complexes (marchés publics, subventions).
+- **Garanti** l’accessibilité de la plateforme en appliquant les normes **WCAG**.
+- **Rédigé** des contenus pédagogiques pour expliquer les enjeux de la transparence et guider les utilisateurs.
 
+**Résultat** : Mes contributions ont été intégrées à la version finale de l’outil, aujourd’hui utilisé par des citoyens, journalistes et associations pour surveiller les dépenses publiques.
 
 ## Liens
 
