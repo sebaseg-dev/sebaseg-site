@@ -91,11 +91,11 @@
         margin-top: -24px;
     }
 
-    & img {
-        max-width: calc(50vw -  48px);
+    & > p > img {
+        width: calc(50vw -  48px);
 
         @media (max-width: $breakpoint-tablet) {
-            max-width: 100%;
+            width: 100%;
         }
     }
 

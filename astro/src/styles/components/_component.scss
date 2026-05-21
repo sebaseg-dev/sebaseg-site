@@ -67,7 +67,7 @@
     
     &__project-card {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         grid-template-rows: 1fr;
         gap: 24px;
 
@@ -79,6 +79,7 @@
 
         &--image {
             grid-column: 1/2;
+            width: 100%;
         }
 
         &--content {
