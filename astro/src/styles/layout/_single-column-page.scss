@@ -62,7 +62,8 @@
     }
 
     & > p,
-    & > pre {
+    & > pre,
+    & > a {
         grid-column: 2/5;
     }
 
