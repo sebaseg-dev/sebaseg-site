@@ -21,7 +21,7 @@ const commonSchema = z.object({
 
 export const collections = {
     career: defineCollection({
-        loader: glob({ base: 'src/content/career', pattern: '**/*.md' }),
+        loader: glob({ base: 'src/content/career', pattern: '**/*.{md,mdx}' }),
         schema: commonSchema,
     }),
     
@@ -31,7 +31,7 @@ export const collections = {
     }),
     
     blog: defineCollection({
-        loader: glob({ base: 'src/content/blog', pattern: '**/*.md' }),
+        loader: glob({ base: 'src/content/blog', pattern: '**/*.{md,mdx}' }),
         schema: commonSchema,
     }),
 };
